@@ -1,0 +1,49 @@
+- name: KINOVIE
+  date: May, 2024
+  position: Front-end Lead
+  stacks: Ruby on Rails · JavaScript · HTML · Bootstrap · SCSS · Figma
+  description: Created by a team of four over two weeks, a movie and TV show social web application for users to create lists, follow, and get recommendations from friends
+  image: projects/kinovie.png
+  url: https://www.kinovie.xyz/
+  github: https://github.com/yewonyoana/KINOVIE
+  online: true
+
+- name: BOOKS-2-BOOK
+  date: May, 2024
+  position: Full-stack
+  stacks: Ruby on Rails · JavaScript · HTML · Bootstrap · SCSS · Figma
+  description: Created by a team of four over one week, a book rental web application where users can rent out and borrow books
+  image: projects/books2book.png
+  url: https://books-2-book-eec16061e238.herokuapp.com/
+  github: https://github.com/yewonyoana/books-2-book
+  online: true
+
+- name: NETFLIX
+  date: March, 2023
+  position: Solo Front-end Project
+  stacks: React · TypeScript
+  description: Clone of Netflix's Homepage
+  image: projects/netflix.png
+  url: https://wn4xvj.csb.app/
+  github: https://github.com/yewonyoana/react-masterclass
+  online: true
+
+- name: KOKOA TALK
+  date: January, 2024
+  position: Solo Front-end Project
+  stacks: HTML · CSS
+  description: Winter-themed clone of Korea's messaging application Kakao Talk
+  image: projects/kokoatalk.png
+  url: https://yewonyoana.github.io/kokoa-clone-2024/
+  github: https://github.com/yewonyoana/kokoa-clone-2024
+  online: true
+
+- name: GHIBLI MOMENTUM
+  date: Oct, 2023
+  position: Solo Full-stack Project
+  stacks: HTML · CSS · JavaScript
+  description: Ghibli-themed clone of the application Momentum Dash
+  image: projects/momentum.png
+  url: https://yewonyoana.github.io/my-momentum-2023/
+  github: https://github.com/yewonyoana/my-momentum-2023
+  online: true
