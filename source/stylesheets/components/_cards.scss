@@ -1,6 +1,6 @@
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 16px;
 }
 
@@ -8,6 +8,7 @@
   overflow: hidden;
   height: 160px;
   background: $dark-gray;
+  color: $white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
@@ -84,7 +85,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .external-link {
     opacity: 0;
@@ -94,13 +95,13 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
