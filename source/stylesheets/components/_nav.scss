@@ -1,4 +1,6 @@
 .nav-link {
+  color: $gray;
+  font-size: 1.2rem;
   &:hover {
     text-decoration: underline;
   }
@@ -6,4 +8,11 @@
 
 .nav-space {
   padding: 0px 1rem;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .nav-links {
+    width: 20rem;
+  }
 }

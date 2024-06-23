@@ -1,11 +1,12 @@
 .button-social {
   position: relative;
-  font-size: 20px;
+  font-size: 1.5rem;
+  color: $gray;
   &:nth-child(2) {
     padding: 0 3rem;
   }
   &:hover {
-    opacity: 0.7;
+    color: $black;
   }
 }
 

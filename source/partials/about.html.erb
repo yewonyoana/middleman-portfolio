@@ -1,16 +1,14 @@
-<div class="row my-5">
+<div class="row container-row">
   <div class="col-12">
     <div class="container">
       <div id="about" class="d-flex flex-column justify-content-center align-items-center">
         <h2 class="title-heading">About Me</h2>
-        <div class="d-flex align-items-center">
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
           <%= image_tag 'profile.JPG', alt: "profile photo", class: 'avatar' %>
-          <div class="about-information px-4">
-            <div class="d-flex">
-              <p>Raised in
-                <span id="about-detail">six</span>
-                different countries.</p>
-            </div>
+          <div class="about-information px-4 d-flex flex-column">
+            <p>Raised in
+              <span id="about-detail">six</span>
+              different countries.</p>
             <p>Hospitality management background.</p>
             <p>Strong soft skills.</p>
             <p>Learn, grow, and solve problems.</p>
