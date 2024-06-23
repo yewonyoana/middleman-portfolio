@@ -1,0 +1,9 @@
+.nav-link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.nav-space {
+  padding: 0px 1rem;
+}
