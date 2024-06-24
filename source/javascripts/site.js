@@ -14,3 +14,27 @@ function handleMouseLeave(event) {
 
 aboutDetail.addEventListener("mouseover", handleMouseOver);
 aboutDetail.addEventListener("mouseleave", handleMouseLeave);
+
+// Scroll to top event
+// Get the button:
+const topBtn = document.getElementById("button-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+    topBtn.style.display = "block";
+    topBtn.style.transition = "display 0.3s ease-in-out";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
