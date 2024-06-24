@@ -1,8 +1,15 @@
+.nav-links {
+  margin-top: 1rem;
+}
+
 .nav-link {
-  color: $gray;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  border: 1px solid $gray;
+  border-radius: 50px;
+  padding: 0.2rem 1.2rem;
   &:hover {
-    text-decoration: underline;
+    background-color: $black;
+    color: $white;
   }
 }
 
