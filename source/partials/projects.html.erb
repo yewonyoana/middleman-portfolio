@@ -9,7 +9,8 @@
               <%= image_tag project.image, alt: "project image" %>
               <div class="card-product-infos w-100">
                 <div class="d-flex justify-content-between align-items-center">
-                  <h2><%= project.name %></h2>
+                  <h2 class="project-title"><%= project.name %></h2>
+                  <p class="project-date"><%= project.date %></p>
                   <div class="card-links">
                     <% link_to project.github, class: 'external-link', target: '_blank' do %>
                       <i class="fa-brands fa-github"></i>
@@ -21,10 +22,9 @@
                     <% end %>
                   </div>
                 </div>
-                <p><%= project.date %></p>
-                <p><%= project.position %></p>
-                <p><%= project.stacks %></p>
-                <p><%= project.description %></p>
+                <p class="project-stacks"><%= project.stacks %></p>
+                <p class="project-position"><%= project.position %></p>
+                <p class="project-description"><%= project.description %></p>
               </div>
             </div>
           <% end %>

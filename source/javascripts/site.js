@@ -27,9 +27,10 @@ window.onscroll = function () {
 function scrollFunction() {
   if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
     topBtn.style.display = "block";
-    topBtn.style.transition = "display 0.3s ease-in-out";
+    topBtn.style.transition = "all 0.15s ease-in";
   } else {
     topBtn.style.display = "none";
+    topBtn.style.transition = "all 0.15s ease-out";
   }
 }
 
