@@ -24,9 +24,9 @@
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: 1px solid $gray;
-  background-color: $gray;
-  color: $black;
+  border: 1px solid $white;
+  background-color: $black;
+  color: $white;
   border-radius: 50%;
   cursor: pointer;
   transition: opacity 0.15s ease-in-out;
