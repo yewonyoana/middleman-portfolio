@@ -1,70 +1,30 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 20px;
+  grid-gap: 12rem;
+  width: 65rem;
 }
 
 .card-product {
   height: 20rem;
   display: flex;
   align-items: center;
-  position: relative;
 }
 
-.card-product h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-product p {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.7;
-  margin-bottom: 0;
-  margin-top: 8px;
-}
-
-.card-product .card-product-infos {
-  padding: 16px;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
-}
-
-.card-links {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-}
-
-.external-link {
-  opacity: 0;
-  color: $gray;
-  transition: opacity 1s;
-  text-decoration: none;
-  font-size: 20px;
-  &:hover {
-    cursor: pointer;
-    color: $gray;
-  }
-}
-
-.project-img {
-  height: 100%;
-  width: 5rem;
+.card-img {
+  width: 35rem;
   object-fit: cover;
+  border: 1px solid black;
 }
 
+.card-product-infos {
+  margin-left: 1.2rem;
+  width: 100%;
+}
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
-  }
-  .external-link {
-    opacity: 1;
   }
 }
 
@@ -73,18 +33,12 @@
   .cards {
     grid-template-columns: 1fr;
   }
-  .external-link {
-    opacity: 1;
-  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr;
-  }
-  .external-link {
-    opacity: 0;
   }
 }
 

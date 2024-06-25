@@ -5,3 +5,17 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.banner-name,
+.banner-job {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-name {
+  font-size: 4rem;
+}
+
+.banner-job {
+  font-weight: 600;
+}

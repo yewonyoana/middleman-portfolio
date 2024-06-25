@@ -1,0 +1,28 @@
+.project-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid $black;
+  border-radius: 50px;
+  padding: 0.2rem 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: $black;
+  color: $white;
+}
+
+.project-detail {
+  font-size: 0.8rem;
+}
+
+.project-link {
+  color: $gray;
+  transition: color 0.12s ease-in-out;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  &:hover {
+    color: $black;
+  }
+}

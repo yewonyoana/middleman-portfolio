@@ -5,26 +5,23 @@
         <h2 class="title-heading">Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
-            <%= image_tag project.image, alt: "project image", class: "project-img" %>
             <div class="card-product">
-              <div class="card-product-infos w-100">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h2 class="project-title"><%= project.name %></h2>
-                  <p class="project-date"><%= project.date %></p>
-                  <div class="card-links">
-                    <% link_to project.github, class: 'external-link', target: '_blank' do %>
-                      <i class="fa-brands fa-github"></i>
+              <%= image_tag project.image, alt: "Project Image", class: "card-img" %>
+              <div class="card-product-infos">
+                <p class="project-title"><%= project.name %></p>
+                <p class="project-detail project-stacks"><%= project.stacks %></p>
+                <p class="project-detail project-position"><%= project.position %></p>
+                <p class="project-detail project-description"><%= project.description %></p>
+                <div class="card-links">
+                  <% link_to project.github, class: 'project-link', target: '_blank' do %>
+                    <i class="fa-brands fa-github"></i>
+                  <% end %>
+                  <% if project.online?  %>
+                    <% link_to project.url, class: 'project-link', target: '_blank' do %>
+                      <i class="fas fa-external-link-alt"></i>
                     <% end %>
-                    <% if project.online?  %>
-                      <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                        <i class="fas fa-external-link-alt"></i>
-                      <% end %>
-                    <% end %>
-                  </div>
+                  <% end %>
                 </div>
-                <p class="project-stacks"><%= project.stacks %></p>
-                <p class="project-position"><%= project.position %></p>
-                <p class="project-description"><%= project.description %></p>
               </div>
             </div>
           <% end %>
