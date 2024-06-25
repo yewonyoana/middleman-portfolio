@@ -1,24 +1,14 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 16px;
+  grid-gap: 20px;
 }
 
 .card-product {
-  overflow: hidden;
-  height: 160px;
-  background: $dark-gray;
-  color: $white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  height: 20rem;
   display: flex;
   align-items: center;
   position: relative;
-}
-
-.card-product img {
-  height: 100%;
-  width: 184px;
-  object-fit: cover;
 }
 
 .card-product h2 {
@@ -60,6 +50,12 @@
     cursor: pointer;
     color: $gray;
   }
+}
+
+.project-img {
+  height: 100%;
+  width: 5rem;
+  object-fit: cover;
 }
 
 // Smallest device
