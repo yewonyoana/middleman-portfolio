@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-heading {
@@ -50,7 +51,7 @@
   color: $gray;
   transition: color 0.12s ease-in-out;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   cursor: pointer;
   &:last-child {
     margin-left: 0.7rem;
