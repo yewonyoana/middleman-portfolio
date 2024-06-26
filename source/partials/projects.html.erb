@@ -6,21 +6,36 @@
         <div class="cards">
           <% data.projects.each do |project| %>
             <div class="card-product">
+              <!-- Project Image -->
               <div class="card-product-img">
                 <%= image_tag project.image, alt: "Project Image", class: "project-img" %>
               </div>
               <div class="card-product-infos">
-                <p class="project-title"><%= project.name %></p>
+                <div class="project-heading">
+                  <!-- Project Title -->
+                  <p class="project-title"><%= project.name %></p>
+                  <!-- Project Links -->
+                  <div class="project-detail project-links">
+                    <% link_to project.github, class: 'project-link', target: '_blank' do %>
+                      <i class="fa-brands fa-github"></i>
+                    <% end %>
+                    <% if project.online?  %>
+                      <% link_to project.url, class: 'project-link', target: '_blank' do %>
+                        <i class="fas fa-external-link-alt"></i>
+                      <% end %>
+                    <% end %>
+                  </div>
+                </div>
+                <!-- Project Details -->
                 <p class="project-detail project-position"><%= project.position %></p>
                 <p class="project-detail project-description"><%= project.description %></p>
-                <p class="project-detail project-stacks"><%= project.stacks %></p>
-                <div class="project-detail">
-                  <% link_to project.github, class: 'project-link', target: '_blank' do %>
-                    <i class="fa-brands fa-github"></i>
-                  <% end %>
-                  <% if project.online?  %>
-                    <% link_to project.url, class: 'project-link', target: '_blank' do %>
-                      <i class="fas fa-external-link-alt"></i>
+                <!-- Project TechStacks -->
+                <div class="project-detail project-stacks">
+                  <% project.stacks.each do |stack| %>
+                    <% data.icons.each do |icon| %>
+                      <% if icon['name'] == stack %>
+                        <%= icon.plain %>
+                      <% end %>
                     <% end %>
                   <% end %>
                 </div>

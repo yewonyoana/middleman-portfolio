@@ -1,0 +1,33 @@
+- name: ruby
+  plain: <i class="devicon-ruby-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain.svg" />
+- name: rails
+  plain: <i class="devicon-rails-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain.svg" />
+- name: html
+  plain: <i class="devicon-html5-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" />
+- name: css
+  plain: <i class="devicon-css3-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
+- name: bootstrap
+  plain: <i class="devicon-bootstrap-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" />
+- name: postgresql
+  plain: <i class="devicon-postgresql-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" />
+- name: heroku
+  plain: <i class="devicon-heroku-original"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-original.svg" />
+- name: figma
+  plain: <i class="devicon-figma-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-plain.svg" />
+- name: react
+  plain: <i class="devicon-react-original"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+- name: typescript
+  plain: <i class="devicon-typescript-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
+- name: javascript
+  plain: <i class="devicon-javascript-plain"></i>
+  svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
