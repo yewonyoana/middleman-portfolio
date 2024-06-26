@@ -1,33 +1,42 @@
-.project-title {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1rem;
-  text-align: center;
-  border: 1px solid $black;
-  border-radius: 50px;
-  padding: 0.2rem 1.2rem;
-  margin-bottom: 1.2rem;
-  background-color: $black;
-  color: $white;
-  width: fit-content;
-}
-
 .project-img {
   width: 100%;
   border: 1px solid black;
 }
 
+.project-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid $black;
+  border-radius: 50px;
+  padding: 0.2rem 1.2rem;
+  margin-bottom: 0;
+  background-color: $black;
+  color: $white;
+  width: fit-content;
+}
+
 .project-detail {
   font-size: 0.8rem;
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.project-stacks {
+  font-style: italic;
+  font-size: 0.7rem;
+  color: $gray;
 }
 
 .project-link {
   color: $gray;
   transition: color 0.12s ease-in-out;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
   cursor: pointer;
+  &:last-child {
+    margin-left: 0.5rem;
+  }
   &:hover {
     color: $black;
   }

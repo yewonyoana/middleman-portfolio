@@ -1,7 +1,7 @@
 - name: KINOVIE
   position: Front-end Lead
   stacks: Ruby on Rails · JavaScript · HTML · Bootstrap · SCSS · Figma
-  description: Created by a team of four over two weeks, a movie and TV show social web application for users to create lists, follow, and get recommendations from friends
+  description: Movie and TV show social web application for users to follow and get recommendations from friends created by a team of four over two weeks
   image: projects/kinovie.jpeg
   url: https://www.kinovie.xyz/
   github: https://github.com/yewonyoana/KINOVIE
@@ -10,7 +10,7 @@
 - name: BOOKS-2-BOOK
   position: Full-stack
   stacks: Ruby on Rails · JavaScript · HTML · Bootstrap · SCSS · Figma
-  description: Created by a team of four over one week, a book rental web application where users can rent out and borrow books
+  description: Book rental web application where users can rent out and borrow books created by a team of four over one week.
   image: projects/books2book.jpeg
   url: https://books-2-book-eec16061e238.herokuapp.com/
   github: https://github.com/yewonyoana/books-2-book
@@ -28,7 +28,7 @@
 - name: KOKOA TALK
   position: Solo Front-end Project
   stacks: HTML · CSS
-  description: Winter-themed clone of Korea's messaging application Kakao Talk
+  description: Clone of Korea's messaging application, Kakao Talk, with a pixelated winter theme
   image: projects/kokoatalk.png
   url: https://yewonyoana.github.io/kokoa-clone-2024/
   github: https://github.com/yewonyoana/kokoa-clone-2024

@@ -11,10 +11,10 @@
               </div>
               <div class="card-product-infos">
                 <p class="project-title"><%= project.name %></p>
-                <p class="project-detail project-stacks"><%= project.stacks %></p>
                 <p class="project-detail project-position"><%= project.position %></p>
                 <p class="project-detail project-description"><%= project.description %></p>
-                <div class="card-links">
+                <p class="project-detail project-stacks"><%= project.stacks %></p>
+                <div class="project-detail">
                   <% link_to project.github, class: 'project-link', target: '_blank' do %>
                     <i class="fa-brands fa-github"></i>
                   <% end %>
