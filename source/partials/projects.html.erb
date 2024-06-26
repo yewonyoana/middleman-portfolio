@@ -11,9 +11,12 @@
                 <%= image_tag project.image, alt: "Project Image", class: "project-img" %>
               </div>
               <div class="card-product-infos">
-                <div class="project-heading">
+                <div class="project-headings">
                   <!-- Project Title -->
-                  <p class="project-title"><%= project.name %></p>
+                  <div class="project-heading">
+                    <p class="project-title"><%= project.name %></p>
+                    <p class="project-detail project-position"><%= project.position %></p>
+                  </div>
                   <!-- Project Links -->
                   <div class="project-detail project-links">
                     <% link_to project.github, class: 'project-link', target: '_blank' do %>
@@ -27,7 +30,6 @@
                   </div>
                 </div>
                 <!-- Project Details -->
-                <p class="project-detail project-position"><%= project.position %></p>
                 <p class="project-detail project-description"><%= project.description %></p>
                 <!-- Project TechStacks -->
                 <div class="project-detail project-stacks">

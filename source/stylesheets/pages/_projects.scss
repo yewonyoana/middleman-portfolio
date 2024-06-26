@@ -1,12 +1,16 @@
 .project-img {
   width: 100%;
-  border: 1px solid black;
+}
+
+.project-headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-heading {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 .project-title {
@@ -24,23 +28,32 @@
 }
 
 .project-detail {
-  font-size: 0.8rem;
   margin: 0.5rem 0 0 0.5rem;
+}
+
+.project-position {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: $gray;
+}
+
+.project-description {
+  font-size: 0.9rem;
 }
 
 .project-stacks {
   color: $gray;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .project-link {
   color: $gray;
   transition: color 0.12s ease-in-out;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   cursor: pointer;
   &:last-child {
-    margin-left: 0.5rem;
+    margin-left: 0.7rem;
   }
   &:hover {
     color: $black;
